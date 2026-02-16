@@ -1,0 +1,14 @@
+,Trust_Score,Trust_Score,Trust_Score,delay_days,delay_days,Severity_Index
+,count,mean,std,mean,median,mean
+ff12,,,,,,
+Business Equipment,3805,0.56,0.058,30.879,9.0,0.216
+Chemicals,714,0.557,0.061,30.839,9.0,0.216
+Consumer Durables,686,0.56,0.056,22.517,9.0,0.209
+Consumer Nondurables,1085,0.563,0.054,19.961,7.0,0.204
+Energy,1587,0.565,0.06,20.67,8.0,0.203
+Healthcare,2737,0.561,0.057,26.077,8.0,0.21
+Manufacturing,1647,0.557,0.058,31.678,9.0,0.218
+Other,4207,0.564,0.058,27.648,8.0,0.211
+Telecommunications,527,0.561,0.058,31.844,10.0,0.215
+Utilities,211,0.551,0.067,29.156,8.0,0.218
+"Wholesale, Retail & Services",1752,0.561,0.058,31.321,9.0,0.217

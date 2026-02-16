@@ -1,0 +1,18 @@
+Variable,Definition,Source/Construction
+Trust_Score,Composite measure of NT explanation credibility (0-1),Equal-weighted average of 5 components
+CREDIBILITY,Specificity + Commitment - Vagueness (normalized 0-1),Script 03: Text analysis of NT narrative
+CONSISTENCY,Writing style similarity to past NTs + Reason stability (0-1),Script 03: Cosine similarity + reason codes
+TRANSPARENCY,"Explanation length + Detail level (weighted average, 0-1)",Script 03: Log(word count) + numerical density
+TIMELINESS,Days before deadline (normalized 0-1),Script 03: (Deadline - Filing_Date) normalized
+INTEGRITY,"Positive tone - Blame shifting (weighted average, 0-1)",Script 03: LM dictionary tone + blame words
+Severity_Index,Delay severity: 0.4×Delay + 0.4×(1-Trust) + 0.2×Vagueness,Script 05: Normalized combination
+delay_days,Actual delay in days from statutory deadline,Regulatory deadline - Actual filing date
+long_delay,Binary indicator for delay > 30 days,delay_days > 30
+vagueness_score,Percentage of vague words in NT narrative,Script 02: Vague word count / Total words × 100
+commitment_score,Percentage of commitment words in NT narrative,Script 02: Commitment word count / Total words × 100
+word_count,Total number of words in NT narrative,Script 02: Word count from cleaned narrative
+ln_at,Natural logarithm of total assets,Log transformation of Compustat AT
+ROA1,Return on assets (net income / total assets),Compustat NI / AT
+leverage2at,Leverage ratio (total debt / total assets),Compustat (DLTT + DLC) / AT
+tobQ,Tobin's Q (market value / book value),Market cap / Book value of assets
+big4,Binary indicator for Big 4 auditor,"1 if auditor is PwC, Deloitte, EY, or KPMG"

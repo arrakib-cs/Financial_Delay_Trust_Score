@@ -1,0 +1,9 @@
+Metric,Value
+Overall Accuracy,0.554
+Precision (High Trust → Short Delay),0.565
+Recall (Short Delay → High Trust),0.553
+Trust Violation Rate (%),4.81
+Mean Trust (Short Delay),0.569
+Mean Trust (Long Delay),0.558
+Trust Difference (Short - Long),0.011
+T-test p-value,0.0000

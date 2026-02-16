@@ -1,0 +1,4 @@
+,Trust_Score,Trust_Score,Trust_Score,delay_days,delay_days,Severity_Index,word_count
+,count,mean,std,mean,median,mean,mean
+10-Q,11522,0.567,0.055,23.75,6.0,0.206,88.997
+10-K,7436,0.552,0.062,34.083,15.0,0.222,99.471

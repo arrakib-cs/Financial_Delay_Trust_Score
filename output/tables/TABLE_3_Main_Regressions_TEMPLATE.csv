@@ -1,0 +1,20 @@
+Variable,Model_1_OLS,Model_2_OLS_FE,Model_3_Logit,Model_4_Components
+Trust Score,Coefficient,,,
+,(Std Error),,,
+Credibility,,,,
+,,,,
+Transparency,,,,
+,,,,
+Log(Assets),,,,
+,,,,
+ROA,,,,
+,,,,
+Leverage,,,,
+,,,,
+,,,,
+Controls,No,Yes,Yes,Yes
+Firm FE,No,Yes,No,Yes
+Year FE,No,Yes,Yes,Yes
+,,,,
+Observations,N,N,N,N
+R-squared,R²,R²,Pseudo R²,R²

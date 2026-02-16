@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:       CAR_minus1_plus1   R-squared:                       0.028
+Model:                            OLS   Adj. R-squared:                  0.024
+Method:                 Least Squares   F-statistic:                     6.856
+Date:                Thu, 08 Jan 2026   Prob (F-statistic):           1.91e-05
+Time:                        18:05:34   Log-Likelihood:                 2083.2
+No. Observations:                 999   AIC:                            -4156.
+Df Residuals:                     994   BIC:                            -4132.
+Df Model:                           4                                         
+Covariance Type:                  HC1                                         
+===============================================================================
+                  coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------
+Intercept      -0.0526      0.010     -5.142      0.000      -0.073      -0.033
+Trust_Score     0.0846      0.018      4.756      0.000       0.050       0.119
+ln_at       -5.376e-05      0.000     -0.176      0.861      -0.001       0.001
+ROA1         7.671e-06   8.71e-06      0.881      0.378   -9.39e-06    2.47e-05
+leverage2at -2.644e-05   1.99e-05     -1.330      0.184   -6.54e-05    1.25e-05
+==============================================================================
+Omnibus:                        2.769   Durbin-Watson:                   2.001
+Prob(Omnibus):                  0.250   Jarque-Bera (JB):                2.955
+Skew:                          -0.028   Prob(JB):                        0.228
+Kurtosis:                       3.260   Cond. No.                     1.85e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+[2] The condition number is large, 1.85e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
